@@ -1,0 +1,23 @@
+@media screen and (max-width: 800px){
+  /* .boxComponent { */
+  /* width: 100%; 
+    font-size: 5vw;
+  }   */
+  /* .link{
+    font-size: 10vw;
+  } */
+  .flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+  }
+}
+
+.s-alert-box {
+  min-width: 250px;
+}
+
+.s-alert-close::before, .s-alert-close::after {
+  width: 2px;
+}
